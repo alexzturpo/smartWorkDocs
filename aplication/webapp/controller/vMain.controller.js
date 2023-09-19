@@ -13,6 +13,7 @@ sap.ui.define([
             //RUTAS
             pageExportacion: function () { this.getRouter().getTargets().display("vExportacion") },
             pageImportaciones: function () { this.getRouter().getTargets().display("vImportaciones") },
+            pageAdminUsers: function () { this.getRouter().getTargets().display("vAdminUsers") },
 
 
             // detailPedido: function () { this.getRouter().getTargets().display("vDetailPedido") },

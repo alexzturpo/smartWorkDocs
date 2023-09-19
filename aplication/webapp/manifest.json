@@ -105,6 +105,12 @@
           "pattern": "vDetailImp",
           "titleTarget": "vDetailImp",
           "target": "vDetailImp"
+        },
+        {
+          "name": "vAdminUsers",
+          "pattern": "vAdminUsers",
+          "titleTarget": "vAdminUsers",
+          "target": "vAdminUsers"
         }
       ],
       "targets": {
@@ -142,6 +148,13 @@
           "clearControlAggregation": false,
           "viewId": "vDetailImp",
           "viewName": "importacion/vDetailImp"
+        },
+        "vAdminUsers": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "vAdminUsers",
+          "viewName": "vAdminUsers"
         }
       }
     },

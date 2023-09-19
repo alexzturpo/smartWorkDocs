@@ -30,6 +30,12 @@ sap.ui.define([
                 // set the device model
                 this.setModel(models.createDeviceModel(), "device");
                 var oData = {
+                  "listUsuarios":[{"RUC":"1241412"}],
+                  "listEmpresa":[{"RUC":"1241412"}],
+                  "listProveedores":[{"RUC":"1241412"}],
+                  "listServicios":[{"SERVICIO":"1241412"}],
+                  "listEmpresasAssign":[{"ruc":"20131565659","descripcion":"TAL S.A"}],
+                  
                     "tbDataPedidos":[
                         {
                           "OPERACION": "E-00001",
